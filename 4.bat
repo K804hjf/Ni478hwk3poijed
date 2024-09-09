@@ -8,8 +8,6 @@ taskkill /f /im FortniteLauncher.exe
 taskkill /f /im EpicGamesLauncher.exe
 cls
 color F0
-echo PRESS ANY KEY TO CLEAN!
-pause>nul
 for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
 del "C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf",
 del "C:\Windows\prefetch\CONHOST.EXE-0C6456FB.pf",
